@@ -1,0 +1,10 @@
+/*Forest-green on a spearmint background- just the way I like it.*/
+h1{color:#339933;background-color:#88ee88;font-family:"Lucida Console";}
+
+/*Now for links- normal is blue; visited is purple; hover and active are red.*/
+a:link{color:#0000FF;font-family:"Courier New";}
+a:visited{color:#AA00FF;font-family:"Courier New";}
+a:hover{color:#FF0000;font-family:"Courier New";}
+a:active{color:#FF0000;font-family:"Courier New";}
+
+body{color:#329632;background-color:#60dc60;font-family:"Courier New";}
