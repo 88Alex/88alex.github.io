@@ -13,8 +13,11 @@
       <input type="submit" value="Comment">
     </form>
     <br />
+    <%! private static String name = request.getParameter("Name"); %>
+    <%! private static String comment = request.getParameter("Comment"); %>
+    <% Comments.addComment(name,comment); %>
     <%! private static String[][] comments = Comments.getComments(); %>
-    <%! private static int count = 0;
+    <%! private static int count = 0; %>
     <% for(String[] strs : comments) { %>
     <!-- strs[0] is the date; strs[1] is the name;  strs[2] is the comment. -->
     <p>On <%= strs[0] %>, <%= strs[1] %> wrote:<br><%= strs[2] %></p>
