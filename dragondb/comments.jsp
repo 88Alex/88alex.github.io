@@ -9,7 +9,7 @@
       Enter your name or programmer's alias:&nbsp;
       <input type="text" name="Name">
       <br /><br />
-      <textarea name="Comments" rows=6 cols=38>
+      <textarea name="Comments" rows=6 cols=38></textarea>
       <input type="submit" value="Comment">
     </form>
     <br />
