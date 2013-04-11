@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>The Mean-Partition Sort Algorithm</title>
+  <body>
+    <h1>The Mean-Partition Sort Algorithm</h1>
+    <p id="maintext">The Mean-Partition Sort Algorithm is a convenient sorting algorithm.
+    It is a variation on the standart partition-sort algorithm, except instead of picking the first item as the 
+    partition, it selects the mean of all the items.</p>
+    <p id="maintext">A pseudo-code implementation would be:</p>
+    <code>
+sort(array):
+  if length(array) < 2:
+    do nothing
+  if length(array) == 2:
+    if array[0] > array[1]:
+      swap(array[0], array[1])
+  if isSorted(array)
+    do nothing
+  for element in array:
+    if element < mean(array):
+      list1.append(element)
+    else if element == mean(array):
+      list2.append(element)
+    else
+      list3.append(element)
+  sort(list1)
+  sort(list3)
+  array = list1 + list2 + list3
+    </code>
+  </body>
+</html>
