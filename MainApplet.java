@@ -5,7 +5,7 @@ import java.util.regex.*;
 class Score
 {
     public static int score=0;
-    public static final int scoreToWin=115;
+    public static final int scoreToWin=105;
 }
 public class MainApplet extends JApplet
 {
@@ -25,6 +25,7 @@ public class MainApplet extends JApplet
             q.ask();
             q=Question.getQuestion();
         }
+        JOptionPane.showMessageDialog(null,"Votre resultat est: " + Score.score + "!");
         if(Score.score >= Score.scoreToWin)
         {
             JOptionPane.showMessageDialog(null,"Congratulations, " + username + "! Vous avez sauve X_0358!");
@@ -98,12 +99,14 @@ class Question
         {
             if(Pattern.matches(rightAnswer, answer))
             {
-                JOptionPane.showMessageDialog(null,rightMessages[(int)Math.random()*rightMsgCount]);
+                int randomNum = (int)Math.random()*rightMsgCount;
+                JOptionPane.showMessageDialog(null,rightMessages[randomNum]);
                 Score.score += difficulty>9000 ? 0 : 3*difficulty;
             }
             else
             {
-                JOptionPane.showMessageDialog(null,rightMessages[(int)Math.random()*wrongMsgCount]);
+                int randomNum = (int)Math.random()*wrongMsgCount;
+                JOptionPane.showMessageDialog(null,wrongMessages[randomNum]);
                 Score.score -= difficulty>9000 ? 0 : 15-(3*difficulty);
             }
         }
