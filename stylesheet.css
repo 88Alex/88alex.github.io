@@ -7,6 +7,8 @@ h1 {
 }
 #sidebar {
 	float: left;
+	background-color: #AAAAFF;
+	border-radius: 20px;
 }
 .sidebar_item {
 	border-radius: 20px;
