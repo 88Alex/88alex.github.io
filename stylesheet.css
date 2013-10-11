@@ -5,3 +5,11 @@ h1 {
 	color: #24A824;
 	background-color: #AAFFAA;
 }
+#sidebar {
+	float: left;
+}
+#sidebar_item {
+	border-radius: 20px;
+	background-color: #5555FF;
+	display: block;
+} 
