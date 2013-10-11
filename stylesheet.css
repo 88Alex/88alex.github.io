@@ -9,14 +9,14 @@ h1 {
 	float: left;
 	background-color: #AAAAFF;
 	border-radius: 20px;
-	width: 100px;
+	width: 200px;
 }
 .sidebar_item {
 	border-radius: 20px;
 	background-color: #5555FF;
 	display: block;
-	width: 90px;
-	height: 50px;
+	width: 180px;
+	height: 100px;
 	margin: center;
 }
 #main {
