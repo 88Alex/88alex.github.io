@@ -14,4 +14,7 @@ h1 {
 	border-radius: 20px;
 	background-color: #5555FF;
 	display: block;
-} 
+}
+#main {
+	clear:left;
+}
