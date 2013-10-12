@@ -6,7 +6,7 @@ h1 {
 	background-color: #AAFFAA;
 }
 #sidebar {
-	float: left;
+	float: top;
 	background-color: #AAAAFF;
 	border-radius: 10px;
 	width: 200px;
