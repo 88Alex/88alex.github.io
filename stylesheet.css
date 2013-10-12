@@ -8,13 +8,13 @@ h1 {
 #sidebar {
 	float: left;
 	background-color: #AAAAFF;
-	border-radius: 20px;
+	border-radius: 10px;
 	width: 200px;
 }
 .sidebar_item {
-	border-radius: 20px;
+	border-radius: 10px;
 	background-color: #5555FF;
-	display: block;
+	display: inline;
 	width: 180px;
 	height: 100px;
 	margin: 10px;
